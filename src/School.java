@@ -5,5 +5,8 @@ public class School {
 
         System.out.println(student1.getGender());
 
+        Parent parent1 = new Parent("Olga", "Ivanova", 'F', 20, "Mother");
+
+        System.out.println(parent1.getFirstName());
     }
 }
